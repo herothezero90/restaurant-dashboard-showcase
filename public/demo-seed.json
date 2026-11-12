@@ -1,0 +1,4573 @@
+{
+  "version": 1,
+  "languages": [
+    {
+      "id": 1,
+      "name": "hr",
+      "isDefault": 1
+    },
+    {
+      "id": 2,
+      "name": "en",
+      "isDefault": 0
+    },
+    {
+      "id": 3,
+      "name": "it",
+      "isDefault": 0
+    },
+    {
+      "id": 4,
+      "name": "de",
+      "isDefault": 0
+    },
+    {
+      "id": 5,
+      "name": "ru",
+      "isDefault": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "translations": {
+        "hr": {
+          "name": "Hrana"
+        },
+        "en": {
+          "name": "Food"
+        },
+        "it": {
+          "name": "Piatti"
+        },
+        "de": {
+          "name": "Speisen"
+        },
+        "ru": {
+          "name": "Еда"
+        }
+      },
+      "subcategories": [
+        {
+          "id": 1,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Predjela"
+            },
+            "en": {
+              "name": "Appetizers"
+            },
+            "it": {
+              "name": "Antipasti"
+            },
+            "de": {
+              "name": "Vorspeisen"
+            },
+            "ru": {
+              "name": "Закуски"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Topla predjela"
+            },
+            "en": {
+              "name": "Warm Appetizers"
+            },
+            "it": {
+              "name": "Antipasti Caldi"
+            },
+            "de": {
+              "name": "Warme Vorspeisen"
+            },
+            "ru": {
+              "name": "Горячие закуски"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Juhe"
+            },
+            "en": {
+              "name": "Soups"
+            },
+            "it": {
+              "name": "Zuppe"
+            },
+            "de": {
+              "name": "Suppen"
+            },
+            "ru": {
+              "name": "Супы"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Glavna jela - Mesna"
+            },
+            "en": {
+              "name": "Main Courses - Meat"
+            },
+            "it": {
+              "name": "Piatti Principali - Carne"
+            },
+            "de": {
+              "name": "Hauptgerichte - Fleisch"
+            },
+            "ru": {
+              "name": "Основные блюда - Мясо"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Glavna jela - Riblja"
+            },
+            "en": {
+              "name": "Main Courses - Fish"
+            },
+            "it": {
+              "name": "Piatti Principali - Pesce"
+            },
+            "de": {
+              "name": "Hauptgerichte - Fisch"
+            },
+            "ru": {
+              "name": "Основные блюда - Рыба"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Dječji menu"
+            },
+            "en": {
+              "name": "Children's menu"
+            },
+            "it": {
+              "name": "Menù per bambini"
+            },
+            "de": {
+              "name": "Kindermenü"
+            },
+            "ru": {
+              "name": "Детское меню"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "category_id": 1,
+          "translations": {
+            "hr": {
+              "name": "Deserti"
+            },
+            "en": {
+              "name": "Desserts"
+            },
+            "it": {
+              "name": "Dessert"
+            },
+            "de": {
+              "name": "Desserts"
+            },
+            "ru": {
+              "name": "Десерты"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "translations": {
+        "hr": {
+          "name": "Piće"
+        },
+        "en": {
+          "name": "Drink"
+        },
+        "it": {
+          "name": "Bevande"
+        },
+        "de": {
+          "name": "Getränke"
+        },
+        "ru": {
+          "name": "Напитки"
+        }
+      },
+      "subcategories": [
+        {
+          "id": 8,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Bezalkoholna pića"
+            },
+            "en": {
+              "name": "Non-Alcoholic Drinks"
+            },
+            "it": {
+              "name": "Bevande Analcoliche"
+            },
+            "de": {
+              "name": "Erfrischungsgetränke"
+            },
+            "ru": {
+              "name": "Безалкогольные напитки"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Topli napitci "
+            },
+            "en": {
+              "name": "Hot Beverages"
+            },
+            "it": {
+              "name": "Bevande Calde"
+            },
+            "de": {
+              "name": "Heiße Getränke "
+            },
+            "ru": {
+              "name": "Горячие напитки"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Žestoka pića"
+            },
+            "en": {
+              "name": "Spirits"
+            },
+            "it": {
+              "name": "Bevande Forti"
+            },
+            "de": {
+              "name": "Spirituosen"
+            },
+            "ru": {
+              "name": "Крепкие спиртные напитки"
+            }
+          }
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Miješana pića"
+            },
+            "en": {
+              "name": "Mixed drinks"
+            },
+            "it": {
+              "name": "Bevande miste"
+            },
+            "de": {
+              "name": "Mixgetränke"
+            },
+            "ru": {
+              "name": "Смешанные напитки"
+            }
+          }
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Bijela Vina"
+            },
+            "en": {
+              "name": "White Wine"
+            },
+            "it": {
+              "name": "Vino bianco"
+            },
+            "de": {
+              "name": "Weißwein"
+            },
+            "ru": {
+              "name": "Белое вино"
+            }
+          }
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Crna Vina"
+            },
+            "en": {
+              "name": "Red Wine"
+            },
+            "it": {
+              "name": "Vino rosso"
+            },
+            "de": {
+              "name": "Rotwein"
+            },
+            "ru": {
+              "name": "Красное вино"
+            }
+          }
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Piva"
+            },
+            "en": {
+              "name": "Beer"
+            },
+            "it": {
+              "name": "Birra"
+            },
+            "de": {
+              "name": "Bier"
+            },
+            "ru": {
+              "name": "Пиво"
+            }
+          }
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "translations": {
+            "hr": {
+              "name": "Kokteli"
+            },
+            "en": {
+              "name": "Cocktails"
+            },
+            "it": {
+              "name": "Cocktail"
+            },
+            "de": {
+              "name": "Coctails"
+            },
+            "ru": {
+              "name": "Коктейли"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "allergens": [
+    {
+      "id": 1,
+      "icon": "Gluten.svg",
+      "translations": {
+        "hr": {
+          "name": "Gluten",
+          "description": "Žitarice koje sadrže gluten (pšenica, raž, ječam, zob, pir, kamut)"
+        },
+        "en": {
+          "name": "Gluten",
+          "description": "Cereals containing gluten (wheat, rye, barley, oats, spelt, kamut)"
+        },
+        "it": {
+          "name": "Glutine",
+          "description": "Cereali contenenti glutine (grano, segale, orzo, avena, farro, kamut)"
+        },
+        "de": {
+          "name": "Gluten",
+          "description": "Getreide, das Gluten enthält (Weizen, Roggen, Gerste, Hafer, Dinkel, Kamut)"
+        },
+        "ru": {
+          "name": "Глютен",
+          "description": "Злаки, содержащие глютен (пшеница, рожь, ячмень, овес, полба, камут)"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "icon": "Crab.svg",
+      "translations": {
+        "hr": {
+          "name": "Rakovi",
+          "description": "Rakovi i proizvodi od rakova"
+        },
+        "en": {
+          "name": "Crustaceans",
+          "description": "Crustaceans and crustacean products"
+        },
+        "it": {
+          "name": "Crostacei",
+          "description": "Crostacei e prodotti a base di crostacei"
+        },
+        "de": {
+          "name": "Krebstiere",
+          "description": "Krebstiere und Krebstiererzeugnisse"
+        },
+        "ru": {
+          "name": "Ракообразные",
+          "description": "Ракообразные и продукты из них"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "icon": "Eggs.svg",
+      "translations": {
+        "hr": {
+          "name": "Jaja",
+          "description": "Jaja i proizvodi od jaja"
+        },
+        "en": {
+          "name": "Eggs",
+          "description": "Eggs and egg products"
+        },
+        "it": {
+          "name": "Uova",
+          "description": "Uova e prodotti a base di uova"
+        },
+        "de": {
+          "name": "Eier",
+          "description": "Eier und Eierzeugnisse"
+        },
+        "ru": {
+          "name": "Яйца",
+          "description": "Яйца и продукты из яиц"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "icon": "Fish.svg",
+      "translations": {
+        "hr": {
+          "name": "Riba",
+          "description": "Riba i riblji proizvodi"
+        },
+        "en": {
+          "name": "Fish",
+          "description": "Fish and fish products"
+        },
+        "it": {
+          "name": "Pesce",
+          "description": "Pesce e prodotti a base di pesce"
+        },
+        "de": {
+          "name": "Fisch",
+          "description": "Fisch und Fischerzeugnisse"
+        },
+        "ru": {
+          "name": "Рыба",
+          "description": "Рыба и рыбные продукты"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "icon": "Nuts.svg",
+      "translations": {
+        "hr": {
+          "name": "Kikiriki",
+          "description": "Kikiriki i proizvodi od kikirikija"
+        },
+        "en": {
+          "name": "Peanuts",
+          "description": "Peanuts and peanut products"
+        },
+        "it": {
+          "name": "Arachidi",
+          "description": "Arachidi e prodotti a base di arachidi"
+        },
+        "de": {
+          "name": "Erdnüsse",
+          "description": "Erdnüsse und Erdnusserzeugnisse"
+        },
+        "ru": {
+          "name": "Арахис",
+          "description": "Арахис и продукты из арахиса"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "icon": "Soya.svg",
+      "translations": {
+        "hr": {
+          "name": "Soja",
+          "description": "Zrna soje i proizvodi od soje"
+        },
+        "en": {
+          "name": "Soy",
+          "description": "Soybeans and soybean products"
+        },
+        "it": {
+          "name": "Soia",
+          "description": "Semi di soia e prodotti a base di soia"
+        },
+        "de": {
+          "name": "Soja",
+          "description": "Sojabohnen und Sojaerzeugnisse"
+        },
+        "ru": {
+          "name": "Соя",
+          "description": "Соевые бобы и продукты из сои"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "icon": "Milk.svg",
+      "translations": {
+        "hr": {
+          "name": "Mlijeko",
+          "description": "Mlijeko i mliječni proizvodi (uključujući laktozu)"
+        },
+        "en": {
+          "name": "Milk",
+          "description": "Milk and dairy products (including lactose)"
+        },
+        "it": {
+          "name": "Latte",
+          "description": "Latte e prodotti lattiero-caseari (incluso il lattosio)"
+        },
+        "de": {
+          "name": "Milch",
+          "description": "Milch und Milcherzeugnisse (einschließlich Laktose)"
+        },
+        "ru": {
+          "name": "Молоко",
+          "description": "Молоко и молочные продукты (включая лактозу)"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "icon": "Walnut.svg",
+      "translations": {
+        "hr": {
+          "name": "Orašasto voće",
+          "description": "Orašasto voće (bademi, lješnjaci, orasi, indijski oraščići, pekan orasi, brazilski orasi, pistacije, makadamija orasi)"
+        },
+        "en": {
+          "name": "Tree Nuts",
+          "description": "Tree nuts (almonds, hazelnuts, walnuts, cashews, pecans, Brazil nuts, pistachios, macadamia nuts)"
+        },
+        "it": {
+          "name": "Frutta a guscio",
+          "description": "Frutta a guscio (mandorle, nocciole, noci, anacardi, noci pecan, noci del Brasile, pistacchi, noci di macadamia)"
+        },
+        "de": {
+          "name": "Schalenfrüchte",
+          "description": "Schalenfrüchte (Mandeln, Haselnüsse, Walnüsse, Cashewnüsse, Pekannüsse, Paranüsse, Pistazien, Macadamianüsse)"
+        },
+        "ru": {
+          "name": "Орехи",
+          "description": "Орехи (миндаль, фундук, грецкие орехи, кешью, пекан, бразильские орехи, фисташки, макадамия)"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "icon": "Celery.svg",
+      "translations": {
+        "hr": {
+          "name": "Celer",
+          "description": "Celer i proizvodi od celera"
+        },
+        "en": {
+          "name": "Celery",
+          "description": "Celery and celery products"
+        },
+        "it": {
+          "name": "Sedano",
+          "description": "Sedano e prodotti a base di sedano"
+        },
+        "de": {
+          "name": "Sellerie",
+          "description": "Sellerie und Sellerieerzeugnisse"
+        },
+        "ru": {
+          "name": "Сельдерей",
+          "description": "Сельдерей и продукты из сельдерея"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "icon": "Mustard.svg",
+      "translations": {
+        "hr": {
+          "name": "Gorušica",
+          "description": "Gorušica i proizvodi od gorušice"
+        },
+        "en": {
+          "name": "Mustard",
+          "description": "Mustard and mustard products"
+        },
+        "it": {
+          "name": "Senape",
+          "description": "Senape e prodotti a base di senape"
+        },
+        "de": {
+          "name": "Senf",
+          "description": "Senf und Senferzeugnisse"
+        },
+        "ru": {
+          "name": "Горчица",
+          "description": "Горчица и продукты из горчицы"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "icon": "Sesame.svg",
+      "translations": {
+        "hr": {
+          "name": "Sjeme sezama",
+          "description": "Sjeme sezama i proizvodi od sjemena sezama"
+        },
+        "en": {
+          "name": "Sesame Seeds",
+          "description": "Sesame seeds and sesame seed products"
+        },
+        "it": {
+          "name": "Semi di sesamo",
+          "description": "Semi di sesamo e prodotti a base di semi di sesamo"
+        },
+        "de": {
+          "name": "Sesamsamen",
+          "description": "Sesamsamen und Sesamerzeugnisse"
+        },
+        "ru": {
+          "name": "Кунжутное семя",
+          "description": "Кунжут и продукты из кунжута"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "icon": "Sulfur.svg",
+      "translations": {
+        "hr": {
+          "name": "Sumporni dioksid i sulfiti",
+          "description": "Sumporni dioksid i sulfiti u koncentracijama većim od 10 mg/kg ili 10 mg/L (računato kao ukupni SO2)"
+        },
+        "en": {
+          "name": "Sulfur Dioxide & Sulfites",
+          "description": "Sulfur dioxide and sulfites in concentrations greater than 10 mg/kg or 10 mg/L (calculated as total SO₂)"
+        },
+        "it": {
+          "name": "Anidride solforosa e solfiti",
+          "description": "Anidride solforosa e solfiti in concentrazioni superiori a 10 mg/kg o 10 mg/L (calcolato come SO₂ totale)"
+        },
+        "de": {
+          "name": "Schwefeldioxid und Sulfite",
+          "description": "Schwefeldioxid und Sulfite in Konzentrationen von mehr als 10 mg/kg oder 10 mg/L (als Gesamt-SO₂ berechnet)"
+        },
+        "ru": {
+          "name": "Диоксид серы и сульфиты",
+          "description": "Диоксид серы и сульфиты в концентрации более 10 мг/кг или 10 мг/л (в пересчете на общий SO₂)"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "icon": "Lupine.svg",
+      "translations": {
+        "hr": {
+          "name": "Lupina",
+          "description": "Lupina i proizvodi od lupine"
+        },
+        "en": {
+          "name": "Lupin",
+          "description": "Lupin and lupin products"
+        },
+        "it": {
+          "name": "Lupini",
+          "description": "Lupini e prodotti a base di lupini"
+        },
+        "de": {
+          "name": "Lupinen",
+          "description": "Lupinen und Lupinenerzeugnisse"
+        },
+        "ru": {
+          "name": "Люпин",
+          "description": "Люпин и продукты из люпина"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "icon": "Squid.svg",
+      "translations": {
+        "hr": {
+          "name": "Mekušci",
+          "description": "Mekušci i proizvodi od mekušaca"
+        },
+        "en": {
+          "name": "Mollusks",
+          "description": "Mollusks and mollusk products"
+        },
+        "it": {
+          "name": "Molluschi",
+          "description": "Molluschi e prodotti a base di molluschi"
+        },
+        "de": {
+          "name": "Weichtiere",
+          "description": "Weichtiere und Weichtiererzeugnisse"
+        },
+        "ru": {
+          "name": "Моллюски",
+          "description": "Моллюски и продукты из моллюсков"
+        }
+      }
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 13,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        4
+      ],
+      "translations": {
+        "hr": {
+          "name": "Tuna tartar",
+          "description": "Svježi tartar od tune s avokadom i limunom"
+        },
+        "en": {
+          "name": "Tuna tartare",
+          "description": "Fresh tuna tartare with avocado and lemon"
+        },
+        "it": {
+          "name": "Tartare di tonno",
+          "description": "Tartare di tonno fresco con avocado e limone"
+        },
+        "de": {
+          "name": "Thunfisch-Tartar",
+          "description": "Frisches Thunfisch-Tartar mit Avocado und Zitrone"
+        },
+        "ru": {
+          "name": "Тартар из тунца",
+          "description": "Свежий тартар из тунца с авокадо и лимоном"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "order_no": 5,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Istarski pršut",
+          "description": "Tanke trakice istarskog pršuta"
+        },
+        "en": {
+          "name": "Istrian prosciutto",
+          "description": "Thinly sliced Istrian prosciutto"
+        },
+        "it": {
+          "name": "Prosciutto istriano",
+          "description": "Sottili fette di prosciutto istriano"
+        },
+        "de": {
+          "name": "Istrischer Schinken",
+          "description": "Dünn geschnittener istrischer Schinken"
+        },
+        "ru": {
+          "name": "Истрийский прошутто",
+          "description": "Тонко нарезанный истрийский прошутто"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "order_no": 4,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 10,
+      "active": true,
+      "daily_menu": true,
+      "allergens": [
+        7,
+        8
+      ],
+      "translations": {
+        "hr": {
+          "name": "Odabir sireva",
+          "description": "Odabrani autohtoni sirevi"
+        },
+        "en": {
+          "name": "Cheese selection",
+          "description": "Selection of local cheeses"
+        },
+        "it": {
+          "name": "Selezione di formaggi",
+          "description": "Selezione di formaggi locali"
+        },
+        "de": {
+          "name": "Käseauswahl",
+          "description": "Auswahl regionaler Käsesorten"
+        },
+        "ru": {
+          "name": "Сырная тарелка",
+          "description": "Ассорти местных сыров"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "order_no": 6,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        2,
+        4,
+        14
+      ],
+      "translations": {
+        "hr": {
+          "name": "Miješano riblje predjelo",
+          "description": "Raznovrsni morski plodovi na ledu"
+        },
+        "en": {
+          "name": "Mixed fish starter",
+          "description": "Assorted seafood served on ice"
+        },
+        "it": {
+          "name": "Antipasto misto di pesce",
+          "description": "Varietà di frutti di mare serviti sul ghiaccio"
+        },
+        "de": {
+          "name": "Gemischte Fischvorspeise",
+          "description": "Verschiedene Meeresfrüchte auf Eis serviert"
+        },
+        "ru": {
+          "name": "Смешанная рыбная закуска",
+          "description": "Ассорти морепродуктов на льду"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "order_no": 7,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 16,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        2,
+        4
+      ],
+      "translations": {
+        "hr": {
+          "name": "Riblji carpaccio",
+          "description": "Tanko narezana svježa riba s maslinovim uljem"
+        },
+        "en": {
+          "name": "Fish carpaccio",
+          "description": "Thinly sliced fresh fish with olive oil"
+        },
+        "it": {
+          "name": "Carpaccio di pesce",
+          "description": "Pesce fresco tagliato finemente con olio d'oliva"
+        },
+        "de": {
+          "name": "Fisch-Carpaccio",
+          "description": "Dünn geschnittener frischer Fisch mit Olivenöl"
+        },
+        "ru": {
+          "name": "Карпаччо из рыбы",
+          "description": "Тонко нарезанная свежая рыба с оливковым маслом"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "order_no": 8,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 12,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        14
+      ],
+      "translations": {
+        "hr": {
+          "name": "Salata od hobotnice",
+          "description": "Hobotnica s mediteranskim začinskim biljem"
+        },
+        "en": {
+          "name": "Octopus salad",
+          "description": "Octopus with Mediterranean herbs"
+        },
+        "it": {
+          "name": "Insalata di polpo",
+          "description": "Polpo con erbe mediterranee"
+        },
+        "de": {
+          "name": "Oktopussalat",
+          "description": "Oktopus mit mediterranen Kräutern"
+        },
+        "ru": {
+          "name": "Салат с осьминогом",
+          "description": "Осьминог с средиземноморскими травами"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "order_no": 9,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        7
+      ],
+      "translations": {
+        "hr": {
+          "name": "Jakobova kapica s pireom od tartufa",
+          "description": "Pečene jakobove kapice s tartuf pireom"
+        },
+        "en": {
+          "name": "Scallops with truffle mashed potatoes",
+          "description": "Pan-seared scallops with truffle mash"
+        },
+        "it": {
+          "name": "Capesante con pure al tartufo",
+          "description": "Capesante scottate con pure al tartufo"
+        },
+        "de": {
+          "name": "Jacobs Muscheln mit Trüffelpüree",
+          "description": "Gebratene Jakobsmuscheln mit Trüffelpüree"
+        },
+        "ru": {
+          "name": "Гребешки с трюфельным пюре",
+          "description": "Обжаренные гребешки с трюфельным пюре"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "order_no": 10,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Školjke na buzaru",
+          "description": "Školjke u bijelom vinu, češnjaku i peršinu"
+        },
+        "en": {
+          "name": "Shells \"Buzara\"",
+          "description": "Shellfish in white wine, garlic and parsley"
+        },
+        "it": {
+          "name": "Buzara di conchiglie",
+          "description": "Cozze al vino bianco, aglio e prezzemolo"
+        },
+        "de": {
+          "name": "Muscheln am Strand",
+          "description": "Muscheln in Weißwein, Knoblauch und Petersilie"
+        },
+        "ru": {
+          "name": "Ракушки «Бузара»",
+          "description": "Моллюски в белом вине, чесноке и петрушке"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "order_no": 1,
+      "category_id": 1,
+      "sub_category_id": 3,
+      "amount": "",
+      "price": 8,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        2,
+        4
+      ],
+      "translations": {
+        "hr": {
+          "name": "Riblja juha",
+          "description": ""
+        },
+        "en": {
+          "name": "Daily soup",
+          "description": ""
+        },
+        "it": {
+          "name": "Zuppa del giorno",
+          "description": ""
+        },
+        "de": {
+          "name": "Tägliche Suppe",
+          "description": ""
+        },
+        "ru": {
+          "name": "Суп дня",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 10,
+      "order_no": 11,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Sezonska salata",
+          "description": "Svježa salata od sezonskog povrća"
+        },
+        "en": {
+          "name": "Seasonal salad",
+          "description": "Fresh salad with seasonal vegetables"
+        },
+        "it": {
+          "name": "Insalata stagionale",
+          "description": "Insalata fresca con verdure di stagione"
+        },
+        "de": {
+          "name": "Saisonaler Salat",
+          "description": "Frischer Salat mit saisonalem Gemüse"
+        },
+        "ru": {
+          "name": "Сезонный салат",
+          "description": "Свежий салат из сезонных овощей"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "order_no": 1,
+      "category_id": 1,
+      "sub_category_id": 7,
+      "amount": "",
+      "price": 5,
+      "active": true,
+      "daily_menu": true,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Lava cake",
+          "description": ""
+        },
+        "en": {
+          "name": "Molten chocolate cake",
+          "description": ""
+        },
+        "it": {
+          "name": "Torta al cioccolato",
+          "description": ""
+        },
+        "de": {
+          "name": "Schokoladenkuchen",
+          "description": ""
+        },
+        "ru": {
+          "name": "Торт из расплавленного шоколада",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 12,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 7,
+      "amount": "",
+      "price": 7,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Čokoladna kugla",
+          "description": ""
+        },
+        "en": {
+          "name": "Chocolate ball",
+          "description": ""
+        },
+        "it": {
+          "name": "Pallina di cioccolato",
+          "description": ""
+        },
+        "de": {
+          "name": "Schokoladenkugel",
+          "description": ""
+        },
+        "ru": {
+          "name": "Шоколадный шар",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 13,
+      "order_no": 3,
+      "category_id": 1,
+      "sub_category_id": 7,
+      "amount": "",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Millefoglie",
+          "description": ""
+        },
+        "en": {
+          "name": "Millefoglie",
+          "description": ""
+        },
+        "it": {
+          "name": "Millefoglie",
+          "description": ""
+        },
+        "de": {
+          "name": "Millefoglie",
+          "description": ""
+        },
+        "ru": {
+          "name": "Миллефойи",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 14,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        3
+      ],
+      "translations": {
+        "hr": {
+          "name": "Fuži ili njoki s gulašem od teletine",
+          "description": ""
+        },
+        "en": {
+          "name": "Fuži or joki with veal goulash",
+          "description": ""
+        },
+        "it": {
+          "name": "Fusi o gnocchi con spezzatino di vitello",
+          "description": ""
+        },
+        "de": {
+          "name": "Fuzi oder Gnocchi mit Kalbsgoulash",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фужи или ёкки с гуляшом из телятины",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 15,
+      "order_no": 1,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 18,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        7
+      ],
+      "translations": {
+        "hr": {
+          "name": "Fuži ili njoki s tartufima",
+          "description": ""
+        },
+        "en": {
+          "name": "Fuži or gnocchi with truffles",
+          "description": ""
+        },
+        "it": {
+          "name": "Fusi o gnocchi al tartufo",
+          "description": ""
+        },
+        "de": {
+          "name": "Fuzi oder Gnocchi mit Trüffels",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фужи или ньокки с трюфелями",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 16,
+      "order_no": 3,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 20,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        2,
+        7
+      ],
+      "translations": {
+        "hr": {
+          "name": "Fuzi ili njoki s kozicama i tartufima",
+          "description": ""
+        },
+        "en": {
+          "name": "Fuzi or gnocchi with shrimp and truffles",
+          "description": ""
+        },
+        "it": {
+          "name": "Fusi o gnocchi con gamberetti e tartufo",
+          "description": ""
+        },
+        "de": {
+          "name": "Fuzi oder Gnocchi mit Shrimps und Trüffels",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фужи или ньокки с креветками и трюфелями",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 17,
+      "order_no": 8,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 14,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        14
+      ],
+      "translations": {
+        "hr": {
+          "name": "Crni rižot od sipe",
+          "description": ""
+        },
+        "en": {
+          "name": "Black cuttlefish risotto",
+          "description": ""
+        },
+        "it": {
+          "name": "Risotto al nero di seppia",
+          "description": ""
+        },
+        "de": {
+          "name": "Risotto mit schwarzem Tintenfisch",
+          "description": ""
+        },
+        "ru": {
+          "name": "Ризотто с черными каракатицами",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 18,
+      "order_no": 4,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        4
+      ],
+      "translations": {
+        "hr": {
+          "name": "Fuzi ili njoki s raguom od tune",
+          "description": ""
+        },
+        "en": {
+          "name": "Fuzi or gnocchi with tuna ragu",
+          "description": ""
+        },
+        "it": {
+          "name": "Fuzi o gnocchi con ragù di tonno",
+          "description": ""
+        },
+        "de": {
+          "name": "Fuzi oder Gnocchi mit Thunfisch-Ragout",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фужи или ньокки с тунцом и рагу",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 19,
+      "order_no": 5,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 17,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        2,
+        3
+      ],
+      "translations": {
+        "hr": {
+          "name": "Njoki s gljivama, škampima i pancetom",
+          "description": ""
+        },
+        "en": {
+          "name": "Gnocchi with mushrooms, shrimp and prosciutto",
+          "description": ""
+        },
+        "it": {
+          "name": "Gnocchi con funghi, scampi e prosciutto",
+          "description": ""
+        },
+        "de": {
+          "name": "Gnocchi mit Pilzen, Garnelen und Prosciutto",
+          "description": ""
+        },
+        "ru": {
+          "name": "Ньокки с грибами, креветками и прошутто",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 20,
+      "order_no": 1,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Biftek na žaru s pire krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Grilled beefsteak with mashed potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Filetto ai ferri con pure di patate",
+          "description": ""
+        },
+        "de": {
+          "name": "Gegrilltes Steak mit Kartoffelpüree",
+          "description": ""
+        },
+        "ru": {
+          "name": "Стейк на гриле с пюре",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 21,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 35,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Biftek u tartufima s fužima",
+          "description": ""
+        },
+        "en": {
+          "name": "Truffled beefsteak with fuzi",
+          "description": ""
+        },
+        "it": {
+          "name": "Filetto al tartufo con fusi",
+          "description": ""
+        },
+        "de": {
+          "name": "Beefsteak in Trüffelsauce mit Fuzi",
+          "description": ""
+        },
+        "ru": {
+          "name": "Стейк с трюфелями и фужи",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 22,
+      "order_no": 3,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 26,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Ribeye na žaru s pečenim krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Grilled ribeye with roasted potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Ribeye alla griglia con patate al forno",
+          "description": ""
+        },
+        "de": {
+          "name": "Gegrilltes Ribeye mit Bratkartoffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Рибай с жареным картофелем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 23,
+      "order_no": 4,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 20,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Svinjska potrbušina s prženim krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Pork belly with fried potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Pancetta di maiale con patate al forno",
+          "description": ""
+        },
+        "de": {
+          "name": "Schweinebauch mit Bratkartoffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Жареное свиное брюшко с картофелем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 24,
+      "order_no": 5,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 25,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Janjetina s povrćem i krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Lamb with vegetables and potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Agnello con verdure e patate",
+          "description": ""
+        },
+        "de": {
+          "name": "Lammfleisch mit Gemüse und Kartoffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Баранина с овощами и картофелем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 25,
+      "order_no": 6,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 20,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Teleća lopatica u umaku sa cherry rajčicama i rimskim njokima",
+          "description": ""
+        },
+        "en": {
+          "name": "Veal shoulder in sauce with cherry tomatoes and Roman gnocchi",
+          "description": ""
+        },
+        "it": {
+          "name": "Spalla di vitello in sugo con pomodorini e gnocchi alla romana",
+          "description": ""
+        },
+        "de": {
+          "name": "Kalbsschulter in Sauce mit Kirschtomaten und römischen Gnocchi",
+          "description": ""
+        },
+        "ru": {
+          "name": "Телячья шея в соусе с помидорами черри и римскими ньокками",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 26,
+      "order_no": 1,
+      "category_id": 1,
+      "sub_category_id": 6,
+      "amount": "",
+      "price": 10,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Bečki odrezak s prženim krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Vienna steak with fried potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Bistecca viennese con patate fritte",
+          "description": ""
+        },
+        "de": {
+          "name": "Wiener Schnitzel mit Bratkartoffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Венский стейк с жареным картофелем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 27,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 6,
+      "amount": "",
+      "price": 8,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Fuži ili njoki s umakom od rajčice",
+          "description": ""
+        },
+        "en": {
+          "name": "Fuži or gnocchi with tomato sauce",
+          "description": ""
+        },
+        "it": {
+          "name": "Fusi o gnocchi al sugo di pomodoro",
+          "description": ""
+        },
+        "de": {
+          "name": "Fuži oder Gnocchi mit Tomatensauce",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фужи или ньокки с томатным соусом",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 28,
+      "order_no": 1,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 20,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Lignje Juliene s blitvom i krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Squid Julienne with Swiss chard and potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Julienne di calamari con bietola e patate",
+          "description": ""
+        },
+        "de": {
+          "name": "Tintenfisch-Julienne mit Mangold und Kartoffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Кальмар по-жюльенски с мангольдом и картофелем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 29,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 26,
+      "active": true,
+      "daily_menu": true,
+      "allergens": [
+        4
+      ],
+      "translations": {
+        "hr": {
+          "name": "Riba u tartufima s grilanom palentom",
+          "description": ""
+        },
+        "en": {
+          "name": "Fish with truffles on grilled polenta",
+          "description": ""
+        },
+        "it": {
+          "name": "Pesce al tartufo con polenta alla griglia",
+          "description": ""
+        },
+        "de": {
+          "name": "Fisch in Trüffelsauce mit gegrillter Polenta",
+          "description": ""
+        },
+        "ru": {
+          "name": "Рыба с трюфелями на гриле с полентой",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 30,
+      "order_no": 3,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 22,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Glazirana hobotnica s pire krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Glazed octopus with mashed potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Polpo glassato con purè di patate",
+          "description": ""
+        },
+        "de": {
+          "name": "Glasierter Oktopus mit Kartoffelpüree",
+          "description": ""
+        },
+        "ru": {
+          "name": "Глазированный осьминог с пюре",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 31,
+      "order_no": 4,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 20,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Fritto misto",
+          "description": ""
+        },
+        "en": {
+          "name": "Fritto misto",
+          "description": ""
+        },
+        "it": {
+          "name": "Fritto misto",
+          "description": ""
+        },
+        "de": {
+          "name": "Fritto Misto",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фритто-мистo",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 32,
+      "order_no": 14,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 32,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        2
+      ],
+      "translations": {
+        "hr": {
+          "name": "Škampi na buzaru sa tjesteninom",
+          "description": ""
+        },
+        "en": {
+          "name": "Langustine on the \"buzara\"",
+          "description": ""
+        },
+        "it": {
+          "name": "Scampi ala buzara",
+          "description": ""
+        },
+        "de": {
+          "name": "Scampi auf dem Buzara",
+          "description": ""
+        },
+        "ru": {
+          "name": "Лангустина по-бузарски",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 33,
+      "order_no": 6,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 25,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Rombo s povrćem i espuma od šafrana",
+          "description": ""
+        },
+        "en": {
+          "name": "Turbot with vegetables and saffron espuma",
+          "description": ""
+        },
+        "it": {
+          "name": "Rombo con verdure e spuma allo zafferano",
+          "description": ""
+        },
+        "de": {
+          "name": "Steinbutt mit Gemüse und Safran-Espuma",
+          "description": ""
+        },
+        "ru": {
+          "name": "Турбо с овощами и шафрановой эмульсией",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 34,
+      "order_no": 7,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 22,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Tuna u crnom sezamu s pire krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Tuna in black sesame with mashed potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Tonno al sesamo nero con purè di patate",
+          "description": ""
+        },
+        "de": {
+          "name": "Thunfisch in schwarzem Sesam mit Kartoffelpüree",
+          "description": ""
+        },
+        "ru": {
+          "name": "Тунец в черном кунжуте с пюре",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 35,
+      "order_no": 8,
+      "category_id": 1,
+      "sub_category_id": 5,
+      "amount": "",
+      "price": 20,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Riblji file s blitvom i krumpirom",
+          "description": ""
+        },
+        "en": {
+          "name": "Fish fillet with Swiss chard and potatoes",
+          "description": ""
+        },
+        "it": {
+          "name": "Filetto di pesce con bietola e patate",
+          "description": ""
+        },
+        "de": {
+          "name": "Fischfilet mit Mangold und Kartoffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Филе рыбы с мангольдом и картофелем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 36,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "1 L",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Istarsko stolno vino",
+          "description": ""
+        },
+        "en": {
+          "name": "Istrian table wine",
+          "description": "White wine"
+        },
+        "it": {
+          "name": "Vino da tavola istriano",
+          "description": "Vino bianco"
+        },
+        "de": {
+          "name": "Istrischer Tafelwein",
+          "description": "Weißwein"
+        },
+        "ru": {
+          "name": "Истрийское столовое вино",
+          "description": "Белое вино"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "order_no": 11,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "1 L",
+      "price": 15,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Istarsko stolno vino",
+          "description": ""
+        },
+        "en": {
+          "name": "Istrian Table Wine",
+          "description": "Red wine"
+        },
+        "it": {
+          "name": "Vino da Tavola Istriano",
+          "description": "Rosso"
+        },
+        "de": {
+          "name": "Istrischer Tafelwein",
+          "description": "Rotwein"
+        },
+        "ru": {
+          "name": "Истрийское столовое вино",
+          "description": "Красное вино"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "order_no": 3,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Malvazija Kozlović",
+          "description": ""
+        },
+        "en": {
+          "name": "Malvasia Kozlović",
+          "description": ""
+        },
+        "it": {
+          "name": "Malvasia Kozlović",
+          "description": ""
+        },
+        "de": {
+          "name": "Malvasia Kozlović",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мальвазия Козлович",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 39,
+      "order_no": 4,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Malvazija Coronica",
+          "description": ""
+        },
+        "en": {
+          "name": "Malvasia Coronica",
+          "description": ""
+        },
+        "it": {
+          "name": "Malvasia Coronica",
+          "description": ""
+        },
+        "de": {
+          "name": "Malvasia Coronica",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мальвазия Короника",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 40,
+      "order_no": 5,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 30,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Malvazija Tomaz",
+          "description": ""
+        },
+        "en": {
+          "name": "Malvazija Tomaz",
+          "description": ""
+        },
+        "it": {
+          "name": "Malvasia Tomaž",
+          "description": ""
+        },
+        "de": {
+          "name": "Malvasia Tomaz",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мальвазия Томаж",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 41,
+      "order_no": 6,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 30,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Malvazija Kadum",
+          "description": ""
+        },
+        "en": {
+          "name": "Malvasia Kadum",
+          "description": ""
+        },
+        "it": {
+          "name": "Malvasia Kadum",
+          "description": ""
+        },
+        "de": {
+          "name": "Malvasia Kadum",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мальвазия Кадум",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 42,
+      "order_no": 7,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Malvazija Legović",
+          "description": ""
+        },
+        "en": {
+          "name": "Malvasia Legović",
+          "description": ""
+        },
+        "it": {
+          "name": "Malvasia Legović",
+          "description": ""
+        },
+        "de": {
+          "name": "Malvasia Legović",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мальвазия Легович",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 43,
+      "order_no": 8,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Chardonnay Degrassi",
+          "description": ""
+        },
+        "en": {
+          "name": "Chardonnay Degrassi",
+          "description": ""
+        },
+        "it": {
+          "name": "Chardonnay Degrassi",
+          "description": ""
+        },
+        "de": {
+          "name": "Chardonnay Degrassi",
+          "description": ""
+        },
+        "ru": {
+          "name": "Шардоне Деграсси",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 44,
+      "order_no": 9,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Chardonnay Legović",
+          "description": ""
+        },
+        "en": {
+          "name": "Chardonnay Legović",
+          "description": ""
+        },
+        "it": {
+          "name": "Chardonnay Legović",
+          "description": ""
+        },
+        "de": {
+          "name": "Chardonnay Legović",
+          "description": ""
+        },
+        "ru": {
+          "name": "Шардоне Легович",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 45,
+      "order_no": 10,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.50 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Muškat Kozlović",
+          "description": ""
+        },
+        "en": {
+          "name": "Muskat Kozlović",
+          "description": ""
+        },
+        "it": {
+          "name": "Muskat Kozlović",
+          "description": ""
+        },
+        "de": {
+          "name": "Muskat Kozlović",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мускат Козлович",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 46,
+      "order_no": 12,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 40,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Grimalda Matošević",
+          "description": ""
+        },
+        "en": {
+          "name": "Grimalda Matosevic",
+          "description": ""
+        },
+        "it": {
+          "name": "Grimalda Matosevic",
+          "description": ""
+        },
+        "de": {
+          "name": "Grimalda Matosevic",
+          "description": ""
+        },
+        "ru": {
+          "name": "Грималда Матошевич",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 47,
+      "order_no": 11,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 40,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Pjenušac Legovina",
+          "description": ""
+        },
+        "en": {
+          "name": "Sparkling wine Legovina",
+          "description": ""
+        },
+        "it": {
+          "name": "Vino spumante Legovina",
+          "description": ""
+        },
+        "de": {
+          "name": "Sekt Legovina",
+          "description": ""
+        },
+        "ru": {
+          "name": "Игристое вино Леговина",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 48,
+      "order_no": 2,
+      "category_id": 2,
+      "sub_category_id": 12,
+      "amount": "0.75 L",
+      "price": 28,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Rosé Legovina",
+          "description": ""
+        },
+        "en": {
+          "name": "Rosé  Legovina",
+          "description": ""
+        },
+        "it": {
+          "name": "Rosato Legovina",
+          "description": ""
+        },
+        "de": {
+          "name": "Rose Legovina",
+          "description": ""
+        },
+        "ru": {
+          "name": "Розовое вино Леговина",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 49,
+      "order_no": 9,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 40,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Teran Kozlović",
+          "description": ""
+        },
+        "en": {
+          "name": "Teran Kozlović",
+          "description": ""
+        },
+        "it": {
+          "name": "Terrano Kozlović",
+          "description": ""
+        },
+        "de": {
+          "name": "Teran Kozlović",
+          "description": ""
+        },
+        "ru": {
+          "name": "Теран Козлович",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 50,
+      "order_no": 10,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 40,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Teran Coronica",
+          "description": ""
+        },
+        "en": {
+          "name": "Teran Coronica",
+          "description": ""
+        },
+        "it": {
+          "name": "Terrano Coronica",
+          "description": ""
+        },
+        "de": {
+          "name": "Teran Coronica",
+          "description": ""
+        },
+        "ru": {
+          "name": "Теран Короника",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 51,
+      "order_no": 16,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 30,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Merlot Kabola",
+          "description": ""
+        },
+        "en": {
+          "name": "Merlot Kabola",
+          "description": ""
+        },
+        "it": {
+          "name": "Merlot Kabola",
+          "description": ""
+        },
+        "de": {
+          "name": "Merlot Kabola",
+          "description": ""
+        },
+        "ru": {
+          "name": "Мерло Кабола",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 52,
+      "order_no": 15,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 40,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cabernet Sauvignon: Coronica Grabar",
+          "description": ""
+        },
+        "en": {
+          "name": "Cabernet Sauvignon: Coronica Grabar",
+          "description": ""
+        },
+        "it": {
+          "name": "Cabernet Sauvignon: Coronica Grabar",
+          "description": ""
+        },
+        "de": {
+          "name": "Cabernet Sauvignon: Coronica Grabar",
+          "description": ""
+        },
+        "ru": {
+          "name": "Каберне Совиньон: Короника Грабар",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 53,
+      "order_no": 14,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 30,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cabernet Sauvignon: Cattunar",
+          "description": ""
+        },
+        "en": {
+          "name": "Cabernet Sauvignon: Cattunar",
+          "description": ""
+        },
+        "it": {
+          "name": "Cabernet Sauvignon: Cattunar",
+          "description": ""
+        },
+        "de": {
+          "name": "Cabernet Sauvignon: Cattunar",
+          "description": ""
+        },
+        "ru": {
+          "name": "Каберне Совиньон: Катунар",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 54,
+      "order_no": 13,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 30,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cabernet Sauvignon: Degrassi barrique",
+          "description": ""
+        },
+        "en": {
+          "name": "Cabernet Sauvignon: Degrassi barrique",
+          "description": ""
+        },
+        "it": {
+          "name": "Cabernet Sauvignon: barrique Degrassi",
+          "description": ""
+        },
+        "de": {
+          "name": "Cabernet Sauvignon: Degrassi Barrique",
+          "description": ""
+        },
+        "ru": {
+          "name": "Каберне Совиньон: Деграсси барик",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 55,
+      "order_no": 12,
+      "category_id": 2,
+      "sub_category_id": 13,
+      "amount": "0.75 L",
+      "price": 40,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Grimalda Matošević",
+          "description": ""
+        },
+        "en": {
+          "name": "Grimalda Matosevic",
+          "description": ""
+        },
+        "it": {
+          "name": "Grimalda Matosevic",
+          "description": ""
+        },
+        "de": {
+          "name": "Grimalda Matosevic",
+          "description": ""
+        },
+        "ru": {
+          "name": "Грималда Матошевич",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 56,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.33 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Negazirana voda Romerquelle",
+          "description": ""
+        },
+        "en": {
+          "name": "Romerquelle still water",
+          "description": ""
+        },
+        "it": {
+          "name": "Romerquelle acqua naturale",
+          "description": ""
+        },
+        "de": {
+          "name": "Römerquelle stilles Wasser",
+          "description": ""
+        },
+        "ru": {
+          "name": "Вода Ромерквелле - не газированная",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 58,
+      "order_no": 2,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.75 L",
+      "price": 4,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Negazirana voda Romerquelle",
+          "description": ""
+        },
+        "en": {
+          "name": "Romerquelle still water",
+          "description": ""
+        },
+        "it": {
+          "name": "Romerquelle acqua naturale",
+          "description": ""
+        },
+        "de": {
+          "name": "Römerquelle stilles Wasser",
+          "description": ""
+        },
+        "ru": {
+          "name": "Вода Ромерквелле - не газированная",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 59,
+      "order_no": 3,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.33 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Mineralna voda Romerquelle",
+          "description": ""
+        },
+        "en": {
+          "name": "Romerquelle sparkling water",
+          "description": ""
+        },
+        "it": {
+          "name": "Acqua frizzante Romerquelle",
+          "description": ""
+        },
+        "de": {
+          "name": "Römerquelle Mineralwasser",
+          "description": ""
+        },
+        "ru": {
+          "name": "Вода Ромерквелле - газированная",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 60,
+      "order_no": 4,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.75 L",
+      "price": 4,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Mineralna voda Romerquelle",
+          "description": ""
+        },
+        "en": {
+          "name": "Romerquelle sparkling water",
+          "description": ""
+        },
+        "it": {
+          "name": "Acqua frizzante Romerquelle",
+          "description": ""
+        },
+        "de": {
+          "name": "Römerquelle Mineralwasser",
+          "description": ""
+        },
+        "ru": {
+          "name": "Вода Ромерквелле - газированная",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 61,
+      "order_no": 5,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "1 L",
+      "price": 7,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Domaći sok od naranče",
+          "description": ""
+        },
+        "en": {
+          "name": "Homemade orange juice",
+          "description": ""
+        },
+        "it": {
+          "name": "Succo d'arancia fatto in casa",
+          "description": ""
+        },
+        "de": {
+          "name": "Hausgemachter Orangensaft",
+          "description": ""
+        },
+        "ru": {
+          "name": "Домашний апельсиновый сок",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 62,
+      "order_no": 6,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.20 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cappy Naranča",
+          "description": ""
+        },
+        "en": {
+          "name": "Cappy Orange",
+          "description": ""
+        },
+        "it": {
+          "name": "Cappy arancione",
+          "description": ""
+        },
+        "de": {
+          "name": "Cappy Orange",
+          "description": ""
+        },
+        "ru": {
+          "name": "Каппи Апельсин",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 63,
+      "order_no": 7,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.20 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cappy Marelica",
+          "description": ""
+        },
+        "en": {
+          "name": "Cappy Apricot",
+          "description": ""
+        },
+        "it": {
+          "name": "Albicocca Cappy",
+          "description": ""
+        },
+        "de": {
+          "name": "Cappy Aprikose",
+          "description": ""
+        },
+        "ru": {
+          "name": "Каппи Абрикос",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 64,
+      "order_no": 8,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.20 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cappy jabuka",
+          "description": ""
+        },
+        "en": {
+          "name": "Cappy apple",
+          "description": ""
+        },
+        "it": {
+          "name": "Mela cappy",
+          "description": ""
+        },
+        "de": {
+          "name": "Cappy Apfel",
+          "description": ""
+        },
+        "ru": {
+          "name": "Каппи Яблоко",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 65,
+      "order_no": 9,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.25 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Fuzetea breskva",
+          "description": "Ledeni čaj"
+        },
+        "en": {
+          "name": "Peach Fuzetea",
+          "description": "Iced tea"
+        },
+        "it": {
+          "name": "Fuzetea alla pesca",
+          "description": "Tè freddo"
+        },
+        "de": {
+          "name": "Pfirsich Fuzetea",
+          "description": "Eistee"
+        },
+        "ru": {
+          "name": "Персиковый Фузитеа",
+          "description": "Холодный чай"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "order_no": 10,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.25 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Fuzetea šumsko voće",
+          "description": "Ledeni čaj"
+        },
+        "en": {
+          "name": "Fuzetea forest fruit",
+          "description": "Iced tea"
+        },
+        "it": {
+          "name": "Fuzetea frutti di bosco",
+          "description": "Tè freddo"
+        },
+        "de": {
+          "name": "Fuzetea Waldfrucht",
+          "description": "Eistee"
+        },
+        "ru": {
+          "name": "Фузитеа с лесными ягодами",
+          "description": "Холодный чай"
+        }
+      }
+    },
+    {
+      "id": 67,
+      "order_no": 11,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.25 L",
+      "price": 4,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Coca-Cola / Coca-Cola Zero",
+          "description": ""
+        },
+        "en": {
+          "name": "Coca Cola",
+          "description": ""
+        },
+        "it": {
+          "name": "Coca-Cola",
+          "description": ""
+        },
+        "de": {
+          "name": "Coca Cola",
+          "description": ""
+        },
+        "ru": {
+          "name": "Кока-Кола",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 69,
+      "order_no": 12,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.25 L",
+      "price": 4,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "en": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "it": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "de": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фанта",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 70,
+      "order_no": 13,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.25 L",
+      "price": 4,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Sprite",
+          "description": ""
+        },
+        "en": {
+          "name": "Sprite",
+          "description": ""
+        },
+        "it": {
+          "name": "Folletto",
+          "description": ""
+        },
+        "de": {
+          "name": "Sprite",
+          "description": ""
+        },
+        "ru": {
+          "name": "Спрайт",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 71,
+      "order_no": 14,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.50 L",
+      "price": 6,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Coca-Cola / Coca-Cola Zero",
+          "description": ""
+        },
+        "en": {
+          "name": "Coca-Cola / Coca-Cola Zero",
+          "description": ""
+        },
+        "it": {
+          "name": "Coca-Cola / Coca-Cola Zero",
+          "description": ""
+        },
+        "de": {
+          "name": "Coca-Cola / Coca-Cola Zero",
+          "description": ""
+        },
+        "ru": {
+          "name": "Кока-Кола / Кока-Кола Зеро",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 72,
+      "order_no": 15,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.50 L",
+      "price": 6,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "en": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "it": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "de": {
+          "name": "Fanta",
+          "description": ""
+        },
+        "ru": {
+          "name": "Фанта",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 73,
+      "order_no": 16,
+      "category_id": 2,
+      "sub_category_id": 8,
+      "amount": "0.50 L",
+      "price": 6,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Sprite",
+          "description": ""
+        },
+        "en": {
+          "name": "Sprite",
+          "description": ""
+        },
+        "it": {
+          "name": "Folletto",
+          "description": ""
+        },
+        "de": {
+          "name": "Sprite",
+          "description": ""
+        },
+        "ru": {
+          "name": "Спрайт",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 74,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 2,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Espresso",
+          "description": ""
+        },
+        "en": {
+          "name": "Espresso",
+          "description": ""
+        },
+        "it": {
+          "name": "Espresso",
+          "description": ""
+        },
+        "de": {
+          "name": "Espresso",
+          "description": ""
+        },
+        "ru": {
+          "name": "Эспрессо",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 75,
+      "order_no": 2,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 2,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Espresso Macchiato",
+          "description": ""
+        },
+        "en": {
+          "name": "Espresso Macchiato",
+          "description": ""
+        },
+        "it": {
+          "name": "Espresso Macchiato",
+          "description": ""
+        },
+        "de": {
+          "name": "Espresso Macchiato",
+          "description": ""
+        },
+        "ru": {
+          "name": "Эспрессо Макиато",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 76,
+      "order_no": 3,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Dupli Espresso",
+          "description": ""
+        },
+        "en": {
+          "name": "Double Espresso",
+          "description": ""
+        },
+        "it": {
+          "name": "Dupli Espresso",
+          "description": ""
+        },
+        "de": {
+          "name": "Doppelter Espresso",
+          "description": ""
+        },
+        "ru": {
+          "name": "Двойной Эспрессо",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 77,
+      "order_no": 4,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Cappuccino",
+          "description": ""
+        },
+        "en": {
+          "name": "Cappuccino",
+          "description": ""
+        },
+        "it": {
+          "name": "Cappuccino",
+          "description": ""
+        },
+        "de": {
+          "name": "Cappuccino",
+          "description": ""
+        },
+        "ru": {
+          "name": "Капучино",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 78,
+      "order_no": 5,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Macchiato",
+          "description": ""
+        },
+        "en": {
+          "name": "Macchiato",
+          "description": ""
+        },
+        "it": {
+          "name": "Macchiato",
+          "description": ""
+        },
+        "de": {
+          "name": "Macchiato",
+          "description": ""
+        },
+        "ru": {
+          "name": "Маккиато",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 79,
+      "order_no": 6,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Caffe Latte",
+          "description": ""
+        },
+        "en": {
+          "name": "Caffe Latte",
+          "description": ""
+        },
+        "it": {
+          "name": "Caffe Latte",
+          "description": ""
+        },
+        "de": {
+          "name": "Caffe Latte",
+          "description": ""
+        },
+        "ru": {
+          "name": "Кафе Латте",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 80,
+      "order_no": 7,
+      "category_id": 2,
+      "sub_category_id": 9,
+      "amount": "",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Čaj",
+          "description": ""
+        },
+        "en": {
+          "name": "Tea",
+          "description": ""
+        },
+        "it": {
+          "name": "Tè",
+          "description": ""
+        },
+        "de": {
+          "name": "Tee",
+          "description": ""
+        },
+        "ru": {
+          "name": "Чай",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 81,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 14,
+      "amount": "0.30 L",
+      "price": 3.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Pivo točeno - Istarsko",
+          "description": ""
+        },
+        "en": {
+          "name": "Draught Beer - Istarsko",
+          "description": ""
+        },
+        "it": {
+          "name": "Birra alla Spina - Istarsko",
+          "description": ""
+        },
+        "de": {
+          "name": "Fassbier - Istarsko",
+          "description": ""
+        },
+        "ru": {
+          "name": "Пиво на разлив - Истарско",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 82,
+      "order_no": 2,
+      "category_id": 2,
+      "sub_category_id": 14,
+      "amount": "0.50 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Pivo točeno - Istarsko",
+          "description": ""
+        },
+        "en": {
+          "name": "Draught Beer - Istarsko",
+          "description": ""
+        },
+        "it": {
+          "name": "Birra alla Spina - Istarsko",
+          "description": ""
+        },
+        "de": {
+          "name": "Fassbier - Istarsko",
+          "description": ""
+        },
+        "ru": {
+          "name": "Пиво на разлив - Истарско",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 83,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 10,
+      "amount": "0.03 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Pelinkovac",
+          "description": ""
+        },
+        "en": {
+          "name": "Pelinkovac",
+          "description": ""
+        },
+        "it": {
+          "name": "Pelinkovac",
+          "description": ""
+        },
+        "de": {
+          "name": "Pelinkovac",
+          "description": ""
+        },
+        "ru": {
+          "name": "Пелинковац",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 84,
+      "order_no": 2,
+      "category_id": 2,
+      "sub_category_id": 10,
+      "amount": "0.03 L",
+      "price": 4,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Jack Daniel's Whiskey",
+          "description": ""
+        },
+        "en": {
+          "name": "Jack Daniel's Whiskey",
+          "description": ""
+        },
+        "it": {
+          "name": "Whisky Jack Daniel's",
+          "description": ""
+        },
+        "de": {
+          "name": "Jack Daniel's Whisky",
+          "description": ""
+        },
+        "ru": {
+          "name": "Джек Дэниэлс Виски",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 85,
+      "order_no": 3,
+      "category_id": 2,
+      "sub_category_id": 10,
+      "amount": "0.03 L",
+      "price": 2.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Medica",
+          "description": ""
+        },
+        "en": {
+          "name": "Medica",
+          "description": ""
+        },
+        "it": {
+          "name": "Medica",
+          "description": ""
+        },
+        "de": {
+          "name": "Medizin",
+          "description": ""
+        },
+        "ru": {
+          "name": "Медика",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 86,
+      "order_no": 4,
+      "category_id": 2,
+      "sub_category_id": 10,
+      "amount": "0.03 L",
+      "price": 2.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Biska",
+          "description": ""
+        },
+        "en": {
+          "name": "Biska",
+          "description": ""
+        },
+        "it": {
+          "name": "Bisaccia",
+          "description": ""
+        },
+        "de": {
+          "name": "Biska",
+          "description": ""
+        },
+        "ru": {
+          "name": "Биска",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 87,
+      "order_no": 5,
+      "category_id": 2,
+      "sub_category_id": 10,
+      "amount": "0.03 L",
+      "price": 2.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Terranino",
+          "description": ""
+        },
+        "en": {
+          "name": "Terranino",
+          "description": ""
+        },
+        "it": {
+          "name": "Terranino",
+          "description": ""
+        },
+        "de": {
+          "name": "Terranino",
+          "description": ""
+        },
+        "ru": {
+          "name": "Терранино",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 88,
+      "order_no": 6,
+      "category_id": 2,
+      "sub_category_id": 10,
+      "amount": "0.03 L",
+      "price": 2.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Loza",
+          "description": ""
+        },
+        "en": {
+          "name": "Danger",
+          "description": ""
+        },
+        "it": {
+          "name": "Pericolo",
+          "description": ""
+        },
+        "de": {
+          "name": "Gefahr",
+          "description": ""
+        },
+        "ru": {
+          "name": "Данджер",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 89,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.20 L",
+      "price": 3,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Gemišt",
+          "description": "Mineralna voda + Bijelo vino"
+        },
+        "en": {
+          "name": "Gemist",
+          "description": "Sparkling water + White wine"
+        },
+        "it": {
+          "name": "Gemist",
+          "description": "Acqua frizzante  + Vino bianco"
+        },
+        "de": {
+          "name": "Edelstein",
+          "description": "Mineralwasser + Weißwein"
+        },
+        "ru": {
+          "name": "Гемист",
+          "description": "Газированная вода + Белое вино"
+        }
+      }
+    },
+    {
+      "id": 90,
+      "order_no": 2,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.30 L",
+      "price": 3.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Radler",
+          "description": "Sprite + Pivo"
+        },
+        "en": {
+          "name": "Radler",
+          "description": "Sprite + Beer"
+        },
+        "it": {
+          "name": "Radler",
+          "description": "Sprite + Birra"
+        },
+        "de": {
+          "name": "Radler",
+          "description": "Sprite + Bier"
+        },
+        "ru": {
+          "name": "Радлер",
+          "description": "Спрайт + Пиво"
+        }
+      }
+    },
+    {
+      "id": 91,
+      "order_no": 3,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.50 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Radler",
+          "description": "Sprite + Pivo"
+        },
+        "en": {
+          "name": "Radler",
+          "description": "Sprite + Beer"
+        },
+        "it": {
+          "name": "Radler",
+          "description": "Sprite + Birra"
+        },
+        "de": {
+          "name": "Radler",
+          "description": "Sprite + Bier"
+        },
+        "ru": {
+          "name": "Радлер",
+          "description": "Спрайт + Пиво"
+        }
+      }
+    },
+    {
+      "id": 92,
+      "order_no": 4,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": " 0.30 L",
+      "price": 3.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Dizel",
+          "description": "Coca-Cola + Pivo"
+        },
+        "en": {
+          "name": "Diesel",
+          "description": "Coca-Cola + Beer"
+        },
+        "it": {
+          "name": "Diesel",
+          "description": "Coca-Cola + Birra"
+        },
+        "de": {
+          "name": "Diesel",
+          "description": "Coca-Cola + Bier"
+        },
+        "ru": {
+          "name": "Дизель",
+          "description": "Кока-Кола + Пиво"
+        }
+      }
+    },
+    {
+      "id": 93,
+      "order_no": 5,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": " 0.50 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Dizel",
+          "description": "Coca-Cola + Pivo"
+        },
+        "en": {
+          "name": "Diesel",
+          "description": "Coca-Cola + Beer"
+        },
+        "it": {
+          "name": "Diesel",
+          "description": "Coca-Cola + Birra"
+        },
+        "de": {
+          "name": "Diesel",
+          "description": "Coca-Cola + Bier"
+        },
+        "ru": {
+          "name": "Дизель",
+          "description": "Кока-Кола + Пиво"
+        }
+      }
+    },
+    {
+      "id": 94,
+      "order_no": 6,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.30 L",
+      "price": 3.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Miš-maš",
+          "description": "Fanta + Crno vino"
+        },
+        "en": {
+          "name": "Mis-Mas",
+          "description": "Fanta + Red Wine"
+        },
+        "it": {
+          "name": "Mis-mas",
+          "description": "Fanta + vino rosso"
+        },
+        "de": {
+          "name": "Mis-Mas",
+          "description": "Fanta + Rotwein"
+        },
+        "ru": {
+          "name": "Мис-Мас",
+          "description": "Фанта + Красное вино"
+        }
+      }
+    },
+    {
+      "id": 95,
+      "order_no": 7,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.50 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Miš-maš",
+          "description": "Fanta + Crno vino"
+        },
+        "en": {
+          "name": "Mis-mas",
+          "description": "Fanta + Red Wine"
+        },
+        "it": {
+          "name": "Mis-mas",
+          "description": "Fanta + vino rosso"
+        },
+        "de": {
+          "name": "Mis-Mas",
+          "description": "Fanta + Rotwein"
+        },
+        "ru": {
+          "name": "Мис-Мас",
+          "description": "Фанта + Красное вино"
+        }
+      }
+    },
+    {
+      "id": 96,
+      "order_no": 3,
+      "category_id": 2,
+      "sub_category_id": 14,
+      "amount": "0.33 L",
+      "price": 3.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Pivo u boci",
+          "description": ""
+        },
+        "en": {
+          "name": "Bottled Beer",
+          "description": ""
+        },
+        "it": {
+          "name": "Birra in Bottiglia",
+          "description": ""
+        },
+        "de": {
+          "name": "Flaschenbier",
+          "description": ""
+        },
+        "ru": {
+          "name": "Бутылочное пиво",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 97,
+      "order_no": 4,
+      "category_id": 2,
+      "sub_category_id": 14,
+      "amount": "0.50 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Pivo u boci",
+          "description": ""
+        },
+        "en": {
+          "name": "Bottled Beer",
+          "description": ""
+        },
+        "it": {
+          "name": "Birra in Bottiglia",
+          "description": ""
+        },
+        "de": {
+          "name": "Flaschenbier",
+          "description": ""
+        },
+        "ru": {
+          "name": "Бутылочное пиво",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 98,
+      "order_no": 8,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.50 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Bambus",
+          "description": "Coca-Cola + Crno vino"
+        },
+        "en": {
+          "name": "Bambus",
+          "description": "Coca-Cola + Red wine"
+        },
+        "it": {
+          "name": "Bambus",
+          "description": "Coca-Cola + vino rosso"
+        },
+        "de": {
+          "name": "Bambus",
+          "description": "Coca-Cola + Rotwein"
+        },
+        "ru": {
+          "name": "Бамбук",
+          "description": "Coca-Cola + Красное вино"
+        }
+      }
+    },
+    {
+      "id": 100,
+      "order_no": 3,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 13,
+      "active": true,
+      "daily_menu": true,
+      "allergens": [
+        3,
+        10
+      ],
+      "translations": {
+        "hr": {
+          "name": "Biftek Tatar",
+          "description": "Klasični tatar biftek s prilogom"
+        },
+        "en": {
+          "name": "Tatar biftek",
+          "description": "Classic beef tartare with garnish"
+        },
+        "it": {
+          "name": "Biftek tartaro",
+          "description": "Classico tartare di manzo con contorno"
+        },
+        "de": {
+          "name": "Tatarisches Biftek",
+          "description": "Klassisches Rindfleisch-Tatar mit Beilage"
+        },
+        "ru": {
+          "name": "татарский бифтек",
+          "description": "Классический татарский бифтек с гарниром"
+        }
+      }
+    },
+    {
+      "id": 101,
+      "order_no": 9,
+      "category_id": 2,
+      "sub_category_id": 11,
+      "amount": "0.3 L",
+      "price": 3.5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Bambus",
+          "description": "Coca-Cola + Crno vino"
+        },
+        "en": {
+          "name": "Bamboo",
+          "description": "Coca-Cola + Red wine"
+        },
+        "it": {
+          "name": "Bambus",
+          "description": "Coca-Cola + vino rosso"
+        },
+        "de": {
+          "name": "Bambus",
+          "description": "Coca-Cola + Rotwein"
+        },
+        "ru": {
+          "name": "Бамбук",
+          "description": "Coca-Cola + Красное вино"
+        }
+      }
+    },
+    {
+      "id": 102,
+      "order_no": 1,
+      "category_id": 2,
+      "sub_category_id": 15,
+      "amount": "0.20 L",
+      "price": 5,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Aperol Spritz",
+          "description": "Prosecco, Aperol, mineralna voda"
+        },
+        "en": {
+          "name": "Aperol Spritz",
+          "description": "Prosecco, Aperol, sparkling water"
+        },
+        "it": {
+          "name": "Aperol Spritz",
+          "description": "Prosecco, Aperol, acqua frizzante"
+        },
+        "de": {
+          "name": "Aperol Spritz",
+          "description": "Prosecco, Aperol, Mineralwasser"
+        },
+        "ru": {
+          "name": "Апероль Шприц",
+          "description": "Просекко, Апероль, газированная вода"
+        }
+      }
+    },
+    {
+      "id": 104,
+      "order_no": 12,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 8,
+      "active": true,
+      "daily_menu": false,
+      "allergens": [
+        4
+      ],
+      "translations": {
+        "hr": {
+          "name": "Savor od morskog psa",
+          "description": "Marinirani morski pas sa ukiseljenim lukom"
+        },
+        "en": {
+          "name": "Shark \"Savor\"",
+          "description": "Marinated shark with pickled onions"
+        },
+        "it": {
+          "name": "\"Savor\" di squalo",
+          "description": "Squalo marinato con cipolle sottaceto"
+        },
+        "de": {
+          "name": "Haigeschmack",
+          "description": "Marinierter Hai mit eingelegten Zwiebeln"
+        },
+        "ru": {
+          "name": "Акула «Савор»",
+          "description": "Маринованная акула с маринованным луком"
+        }
+      }
+    },
+    {
+      "id": 110,
+      "order_no": 10,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 18,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        14
+      ],
+      "translations": {
+        "hr": {
+          "name": "Morska karbonara",
+          "description": "Crni spaghetti sa morskim plodovima i pancetom"
+        },
+        "en": {
+          "name": "Seafood carbonara",
+          "description": "Black spaghetti with seafood and pancetta"
+        },
+        "it": {
+          "name": "Carbonara di frutti di mare",
+          "description": "Spaghetti neri con frutti di mare e pancetta"
+        },
+        "de": {
+          "name": "Meeresfrüchte-Carbonara",
+          "description": "Schwarze Spaghetti mit Meeresfrüchten und Pancetta"
+        },
+        "ru": {
+          "name": "Карбонара из морепродуктов",
+          "description": "Черные спагетти с морепродуктами и панчеттой"
+        }
+      }
+    },
+    {
+      "id": 111,
+      "order_no": 11,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 14,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "translations": {
+        "hr": {
+          "name": "Gnudi",
+          "description": "\"Ravioli\" od skute s umakom od rajčice, parmezanom i bosiljkom"
+        },
+        "en": {
+          "name": "Naked",
+          "description": "Cottage cheese \"ravioli\" with tomato sauce, parmesan and basil"
+        },
+        "it": {
+          "name": "Gnudi",
+          "description": "Ravioli di ricotta con salsa di pomodoro, parmigiano e basilico"
+        },
+        "de": {
+          "name": "Nackt",
+          "description": "Hüttenkäse-Ravioli mit Tomatensauce, Parmesan und Basilikum"
+        },
+        "ru": {
+          "name": "Голый",
+          "description": "Творожные «равиоли» с томатным соусом, пармезаном и базиликом"
+        }
+      }
+    },
+    {
+      "id": 112,
+      "order_no": 9,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 16,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        2,
+        14
+      ],
+      "translations": {
+        "hr": {
+          "name": "Rižoto od morskih plodova",
+          "description": ""
+        },
+        "en": {
+          "name": "Seafood risotto",
+          "description": ""
+        },
+        "it": {
+          "name": "Risotto ai frutti di mare",
+          "description": ""
+        },
+        "de": {
+          "name": "Meeresfrüchte-Risotto",
+          "description": ""
+        },
+        "ru": {
+          "name": "Ризотто с морепродуктами",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 113,
+      "order_no": 6,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 18,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        7
+      ],
+      "translations": {
+        "hr": {
+          "name": "Rižoto od tartufa sa redukcijom terana",
+          "description": ""
+        },
+        "en": {
+          "name": "Truffle risotto with Teran reduction",
+          "description": ""
+        },
+        "it": {
+          "name": "Risotto al tartufo con riduzione di Terrano",
+          "description": ""
+        },
+        "de": {
+          "name": "Trüffelrisotto mit Teranreduktion",
+          "description": ""
+        },
+        "ru": {
+          "name": "Ризотто с трюфелями и соусом теран",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 114,
+      "order_no": 7,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 20,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        2
+      ],
+      "translations": {
+        "hr": {
+          "name": "Rižoto sa škampima i tartufima",
+          "description": ""
+        },
+        "en": {
+          "name": "Risotto with shrimp and truffles",
+          "description": ""
+        },
+        "it": {
+          "name": "Risotto con gamberi e tartufi",
+          "description": ""
+        },
+        "de": {
+          "name": "Risotto mit Garnelen und Trüffeln",
+          "description": ""
+        },
+        "ru": {
+          "name": "Ризотто с креветками и трюфелями",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 115,
+      "order_no": 12,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 15,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        2,
+        4,
+        14
+      ],
+      "translations": {
+        "hr": {
+          "name": "Brodet",
+          "description": "od mješane ribe i rakova sa grilanom palentom"
+        },
+        "en": {
+          "name": "Brodette",
+          "description": "mixed fish and crab with grilled polenta"
+        },
+        "it": {
+          "name": "Brodetto",
+          "description": "pesce misto e granchio con polenta grigliata"
+        },
+        "de": {
+          "name": "Brodette",
+          "description": "gemischter Fisch und Krabben mit gegrillter Polenta"
+        },
+        "ru": {
+          "name": "Бродетт",
+          "description": "ассорти из рыбы и крабов с жареной полентой"
+        }
+      }
+    },
+    {
+      "id": 116,
+      "order_no": 13,
+      "category_id": 1,
+      "sub_category_id": 2,
+      "amount": "",
+      "price": 15,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        1
+      ],
+      "translations": {
+        "hr": {
+          "name": "Pljukanci sa šogom od janjetine i motra",
+          "description": ""
+        },
+        "en": {
+          "name": "Pljukanci with lamb and goat cheese",
+          "description": ""
+        },
+        "it": {
+          "name": "Pljukanci con agnello e formaggio di capra",
+          "description": ""
+        },
+        "de": {
+          "name": "Pljukanci mit Lamm und Ziegenkäse",
+          "description": ""
+        },
+        "ru": {
+          "name": "Плюканцы с бараниной и козьим сыром",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 117,
+      "order_no": 2,
+      "category_id": 1,
+      "sub_category_id": 3,
+      "amount": "",
+      "price": 5,
+      "active": false,
+      "daily_menu": true,
+      "allergens": [
+        1
+      ],
+      "translations": {
+        "hr": {
+          "name": "Juha od tikvica sa štrudlicom od povrća",
+          "description": ""
+        },
+        "en": {
+          "name": "Zucchini soup with vegetable strudel",
+          "description": ""
+        },
+        "it": {
+          "name": "Zuppa di zucchine con strudel di verdure",
+          "description": ""
+        },
+        "de": {
+          "name": "Zucchinisuppe mit Gemüsestrudel",
+          "description": ""
+        },
+        "ru": {
+          "name": "Суп из цуккини с овощным штруделем",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 118,
+      "order_no": 3,
+      "category_id": 1,
+      "sub_category_id": 3,
+      "amount": "",
+      "price": 5,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Goveđa juha",
+          "description": ""
+        },
+        "en": {
+          "name": "Beef soup",
+          "description": ""
+        },
+        "it": {
+          "name": "Zuppa di manzo",
+          "description": ""
+        },
+        "de": {
+          "name": "Rindfleischsuppe",
+          "description": ""
+        },
+        "ru": {
+          "name": "Говяжий суп",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 121,
+      "order_no": 4,
+      "category_id": 1,
+      "sub_category_id": 3,
+      "amount": "",
+      "price": 6,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        1
+      ],
+      "translations": {
+        "hr": {
+          "name": "Istarska maneštra",
+          "description": ""
+        },
+        "en": {
+          "name": "Istrian maneštra",
+          "description": ""
+        },
+        "it": {
+          "name": "Maneggio istriano",
+          "description": ""
+        },
+        "de": {
+          "name": "Istrische Maneštra",
+          "description": ""
+        },
+        "ru": {
+          "name": "Истрийская манештра",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 122,
+      "order_no": 5,
+      "category_id": 1,
+      "sub_category_id": 3,
+      "amount": "",
+      "price": 6,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Juha od šparuga",
+          "description": ""
+        },
+        "en": {
+          "name": "Asparagus soup",
+          "description": ""
+        },
+        "it": {
+          "name": "Zuppa di asparagi",
+          "description": ""
+        },
+        "de": {
+          "name": "Spargelsuppe",
+          "description": ""
+        },
+        "ru": {
+          "name": "суп из спаржи",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 123,
+      "order_no": 13,
+      "category_id": 1,
+      "sub_category_id": 1,
+      "amount": "",
+      "price": 10,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [],
+      "translations": {
+        "hr": {
+          "name": "Kamenica",
+          "description": "Svježa kamenica s limunom"
+        },
+        "en": {
+          "name": "Oyster",
+          "description": "Fresh oyster with lemon"
+        },
+        "it": {
+          "name": "ostrica",
+          "description": "Ostrica fresca con limone"
+        },
+        "de": {
+          "name": "Auster",
+          "description": "Frische Auster mit Zitrone"
+        },
+        "ru": {
+          "name": "устрица",
+          "description": "Свежая устрица с лимоном"
+        }
+      }
+    },
+    {
+      "id": 124,
+      "order_no": 7,
+      "category_id": 1,
+      "sub_category_id": 4,
+      "amount": "",
+      "price": 20,
+      "active": false,
+      "daily_menu": false,
+      "allergens": [
+        1,
+        2,
+        3
+      ],
+      "translations": {
+        "hr": {
+          "name": "Test dish",
+          "description": "Test"
+        },
+        "en": {
+          "name": "Test dish",
+          "description": "Test"
+        },
+        "it": {
+          "name": "Test dish",
+          "description": "Test"
+        },
+        "de": {
+          "name": "Test dish",
+          "description": "Test"
+        },
+        "ru": {
+          "name": "Test dish",
+          "description": "Test"
+        }
+      }
+    }
+  ],
+  "dailyMenuPrice": 22,
+  "reservations": [],
+  "nextIds": {
+    "menu": 125,
+    "reservation": 1
+  }
+}
