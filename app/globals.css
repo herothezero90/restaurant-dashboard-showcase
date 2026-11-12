@@ -40,3 +40,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.chakra-checkbox__control {
+  border-color: rgb(144, 144, 144) !important;
+}

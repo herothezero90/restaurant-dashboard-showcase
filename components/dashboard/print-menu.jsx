@@ -4,7 +4,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { ChefHat, Download, Globe2, LayoutList, ListChecks, LoaderCircle, X } from "lucide-react";
 import { getActiveMenu, getCategories, getDailyMenu } from "../../utils/menuUtils";
-import { openSans } from "../../app/(dashboard)/fonts";
+import { Box, Container, HStack, Text, VStack } from "@chakra-ui/react";
+import { geist, geistMono } from "../../app/(dashboard)/fonts";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { cn } from "./lib/utils";
@@ -47,7 +48,7 @@ function slug(value) {
   return value
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
 }
@@ -88,26 +89,6 @@ function Hint({ mode }) {
   );
 }
 
-function PrintItem({ item, price }) {
-  return (
-    <div className="print-item">
-      <div className="print-item__row">
-        <strong>{item.name}</strong>
-        <span className="print-item__meta">
-          {item.allergens?.map((allergen) =>
-            allergen.icon ? (
-              <Image key={allergen.id} src={`/images/alergeni/${allergen.icon}`} alt={allergen.name || ""} width={16} height={16} />
-            ) : null
-          )}
-          {item.amount && <span>{item.amount}</span>}
-        </span>
-        <span className="print-item__price">{price}</span>
-      </div>
-      {item.description && item.description !== "-" && <p>{item.description}</p>}
-    </div>
-  );
-}
-
 export default function PrintMenu() {
   const [language, setLanguage] = useState("hr");
   const [dataLanguage, setDataLanguage] = useState("hr");
@@ -140,16 +121,6 @@ export default function PrintMenu() {
     () => categories.flatMap((category) => category.subcategories),
     [categories]
   );
-
-  const sections = useMemo(() => {
-    const ids = mode === "custom" ? selected : subcategories.map((subcategory) => subcategory.id);
-    return ids
-      .map((id) => ({
-        subcategory: subcategories.find((entry) => entry.id === id),
-        items: menu.filter((item) => item.sub_category_id === id),
-      }))
-      .filter((section) => section.subcategory && section.items.length > 0);
-  }, [menu, mode, selected, subcategories]);
 
   const changeMode = (value) => {
     setMode(value);
@@ -193,118 +164,198 @@ export default function PrintMenu() {
   };
 
   const canExport = mode !== "custom" || selected.length > 0;
-  const sheetLanguage = dataLanguage;
+
+  const renderItems = () => {
+    if (mode === "daily") {
+      return (
+        <>
+          <Text fontSize="30px" fontWeight="bold" mb={6} textAlign="left">
+            {DAILY_TITLE[dataLanguage] || DAILY_TITLE.hr}
+          </Text>
+          <VStack spacing={6} align="stretch" color="#444654">
+            {daily.items.map((item, index) => (
+              <Box key={item.id} minH="50px">
+                <Box display="grid" gridTemplateColumns="1fr 100px 140px" gap={4} alignItems="center" mb={2}>
+                  <Text fontWeight="bold" fontSize="16px" m={0} p={0}>
+                    {item.name}
+                  </Text>
+                  <HStack justify="flex-end" spacing={1} wrap="wrap">
+                    {item.allergens?.map((allergen) =>
+                      allergen.icon ? (
+                        <Box key={allergen.id} p="1px">
+                          <Image src={`/images/alergeni/${allergen.icon}`} alt={allergen.name || "Alergen"} width={16} height={16} />
+                        </Box>
+                      ) : null
+                    )}
+                    {item.amount && (
+                      <Text fontSize="16px" m={0} p={0}>
+                        {item.amount}
+                      </Text>
+                    )}
+                  </HStack>
+                  <Text fontWeight="bold" fontSize="20px" textAlign="right" m={0} p={0} pr={2} whiteSpace="nowrap" overflow="visible">
+                    {index === daily.items.length - 1 ? `${daily.price} €` : ""}
+                  </Text>
+                </Box>
+                {item.description && item.description !== "-" && (
+                  <Text fontSize="16px" mt={1}>
+                    {item.description}
+                  </Text>
+                )}
+              </Box>
+            ))}
+          </VStack>
+        </>
+      );
+    }
+
+    if (mode === "custom" && selected.length === 0) return null;
+
+    const ids = mode === "custom" ? selected : subcategories.map((subcategory) => subcategory.id);
+
+    return ids.map((subId, index) => {
+      const subcategory = subcategories.find((entry) => entry.id === subId);
+      const items = menu.filter((item) => item.sub_category_id === subId);
+
+      if (!subcategory || items.length === 0) return null;
+
+      return (
+        <Box key={subId} mb={6} className={mode === "full" && index !== 0 ? "page-break" : undefined}>
+          <Text fontSize="30px" fontWeight="bold" mb={10} mt={2} textAlign="left">
+            {subcategory.name}
+          </Text>
+          <VStack spacing={4} align="stretch" color="#444654">
+            {items.map((item) => (
+              <Box key={item.id} minH="50px">
+                <Box display="grid" gridTemplateColumns="1fr 100px 140px" gap={2} alignItems="center" mb={2}>
+                  <Text fontWeight="bold" fontSize="16px" m={0} p={0}>
+                    {item.name}
+                  </Text>
+                  <HStack justify="flex-end" spacing={1} wrap="wrap">
+                    {item.allergens?.map((allergen) =>
+                      allergen.icon ? (
+                        <Box key={allergen.id} p="1px">
+                          <Image src={`/images/alergeni/${allergen.icon}`} alt={allergen.name || "Alergen"} width={18} height={18} />
+                        </Box>
+                      ) : null
+                    )}
+                    {item.amount && (
+                      <Text fontSize="16px" m={0} p={0}>
+                        {item.amount}
+                      </Text>
+                    )}
+                  </HStack>
+                  <Text fontWeight="bold" fontSize="16px" textAlign="right" m={0} p={0} pr={2} whiteSpace="nowrap" overflow="visible">
+                    {item.price} €
+                  </Text>
+                </Box>
+                {item.description && (
+                  <Text fontSize="14px" mt={1}>
+                    {item.description}
+                  </Text>
+                )}
+              </Box>
+            ))}
+          </VStack>
+        </Box>
+      );
+    });
+  };
 
   return (
-    <main className="admin:min-h-screen admin:bg-background admin:text-foreground">
-      {error && (
-        <div className="admin:fixed admin:left-1/2 admin:top-4 admin:z-[1200] admin:flex admin:w-[calc(100%-2rem)] admin:max-w-xl admin:-translate-x-1/2 admin:items-center admin:justify-between admin:gap-3 admin:rounded-md admin:bg-destructive admin:px-4 admin:py-3 admin:text-sm admin:text-destructive-foreground admin:shadow-lg">
-          <span>{error}</span>
-          <button type="button" onClick={() => setError(null)} aria-label="Zatvori">
-            <X size={18} />
-          </button>
-        </div>
-      )}
-
-      <header className="admin:border-b admin:border-border admin:bg-card admin:text-center">
-        <div className="admin:w-full admin:px-6 admin:py-5">
-          <h1 className="admin:m-0 admin:text-3xl admin:font-semibold admin:tracking-tight admin:text-foreground admin:md:text-5xl">Print jelovnika</h1>
-        </div>
-      </header>
-
-      <div className="admin:mx-auto admin:grid admin:w-full admin:max-w-5xl admin:gap-6 admin:px-3 admin:py-6 admin:md:px-6">
-        <Card>
-          <CardContent className="admin:grid admin:gap-5 admin:pt-5">
-            <div className="admin:flex admin:flex-wrap admin:items-center admin:justify-between admin:gap-3">
-              <div className="admin:flex admin:flex-wrap admin:gap-2">
-                {MODES.map(({ value, label, icon: Icon }) => (
-                  <Button key={value} variant={mode === value ? "default" : "outline"} onClick={() => changeMode(value)}>
-                    <Icon size={16} /> {label}
-                  </Button>
-                ))}
-              </div>
-              <Button onClick={exportPdf} disabled={!canExport || exporting}>
-                {exporting ? <LoaderCircle size={16} className="admin:animate-spin" /> : <Download size={16} />}
-                {exporting ? "Izrada PDF-a..." : "Preuzmi PDF"}
-              </Button>
-            </div>
-
-            <div className="admin:flex admin:flex-wrap admin:items-center admin:gap-2">
-              {LANGUAGES.map((entry) => (
-                <Button
-                  key={entry.value}
-                  size="sm"
-                  variant={language === entry.value ? "default" : "outline"}
-                  onClick={() => setLanguage(entry.value)}
-                  disabled={exporting}
-                >
-                  <Image src={`/images/${entry.flag}`} alt="" width={20} height={14} className="admin:h-3.5 admin:w-5 admin:rounded-[2px] admin:object-cover" />
-                  {entry.label}
-                </Button>
-              ))}
-              <span className="admin:mx-1 admin:h-6 admin:w-px admin:bg-border" aria-hidden="true" />
-              <Button size="sm" variant={language === "all" ? "default" : "outline"} onClick={() => setLanguage("all")} disabled={exporting}>
-                <Globe2 size={15} /> Svi jezici
-              </Button>
-            </div>
-
-            <div className="admin:rounded-md admin:bg-muted admin:px-4 admin:py-3">
-              <Hint mode={mode} />
-            </div>
-
-            {mode === "custom" && (
-              <div className="admin:flex admin:flex-wrap admin:gap-2">
-                {subcategories.map((subcategory) => (
-                  <Button
-                    key={subcategory.id}
-                    size="sm"
-                    variant={selected.includes(subcategory.id) ? "default" : "outline"}
-                    onClick={() => toggleSubcategory(subcategory.id)}
-                  >
-                    {subcategory.name}
-                  </Button>
-                ))}
-              </div>
-            )}
-          </CardContent>
-        </Card>
-
-        <Card className="admin:overflow-hidden admin:bg-muted">
-          <div className="admin:overflow-x-auto admin:p-3 admin:md:p-8">
-            <div className="print-preview">
-              {mode === "custom" && <div className="print-preview__breaks" aria-hidden="true" />}
-              <div ref={printableRef} className={cn("print-sheet", openSans.className)}>
-                {mode === "daily" ? (
-                  <section>
-                    <h2 className="print-sheet__title">
-                      {DAILY_TITLE[sheetLanguage] || DAILY_TITLE.hr}
-                      <span>{daily.price} €</span>
-                    </h2>
-                    {daily.items.length === 0 ? (
-                      <p className="print-sheet__empty">Nema stavki u dnevnom meniju.</p>
-                    ) : (
-                      daily.items.map((item) => <PrintItem key={item.id} item={item} />)
-                    )}
-                  </section>
-                ) : sections.length === 0 ? (
-                  <p className="print-sheet__empty">
-                    {mode === "custom" ? "Odaberi barem jednu kategoriju za pregled." : "Nema aktivnih stavki."}
-                  </p>
-                ) : (
-                  sections.map(({ subcategory, items }, index) => (
-                    <section key={subcategory.id} className={mode === "full" && index > 0 ? "page-break" : undefined}>
-                      <h2 className="print-sheet__title">{subcategory.name}</h2>
-                      {items.map((item) => (
-                        <PrintItem key={item.id} item={item} price={`${item.price} €`} />
-                      ))}
-                    </section>
-                  ))
-                )}
-              </div>
-            </div>
+    <Box minH="100vh" w="100%">
+      <div className={`dashboard-theme ${geist.variable} ${geistMono.variable}`}>
+        {error && (
+          <div className="admin:fixed admin:left-1/2 admin:top-4 admin:z-[1200] admin:flex admin:w-[calc(100%-2rem)] admin:max-w-xl admin:-translate-x-1/2 admin:items-center admin:justify-between admin:gap-3 admin:rounded-md admin:bg-destructive admin:px-4 admin:py-3 admin:text-sm admin:text-destructive-foreground admin:shadow-lg">
+            <span>{error}</span>
+            <button type="button" onClick={() => setError(null)} aria-label="Zatvori">
+              <X size={18} />
+            </button>
           </div>
-        </Card>
+        )}
+
+        <header className="admin:border-b admin:border-border admin:bg-card admin:text-center">
+          <div className="admin:w-full admin:px-6 admin:py-5">
+            <h1 className="admin:m-0 admin:text-3xl admin:font-semibold admin:tracking-tight admin:text-foreground admin:md:text-5xl">Print jelovnika</h1>
+          </div>
+        </header>
+
+        <div className="admin:mx-auto admin:w-full admin:max-w-5xl admin:px-5 admin:py-6">
+          <Card>
+            <CardContent className="admin:grid admin:gap-5 admin:pt-5">
+              <div className="admin:flex admin:flex-wrap admin:items-center admin:justify-between admin:gap-3">
+                <div className="admin:flex admin:flex-wrap admin:gap-2">
+                  {MODES.map(({ value, label, icon: Icon }) => (
+                    <Button key={value} variant={mode === value ? "default" : "outline"} onClick={() => changeMode(value)}>
+                      <Icon size={16} /> {label}
+                    </Button>
+                  ))}
+                </div>
+                <Button onClick={exportPdf} disabled={!canExport || exporting}>
+                  {exporting ? <LoaderCircle size={16} className="admin:animate-spin" /> : <Download size={16} />}
+                  {exporting ? "Izrada PDF-a..." : "Preuzmi PDF"}
+                </Button>
+              </div>
+
+              <div className="admin:flex admin:flex-wrap admin:items-center admin:gap-2">
+                {LANGUAGES.map((entry) => (
+                  <Button
+                    key={entry.value}
+                    size="sm"
+                    variant={language === entry.value ? "default" : "outline"}
+                    onClick={() => setLanguage(entry.value)}
+                    disabled={exporting}
+                  >
+                    <Image src={`/images/${entry.flag}`} alt="" width={20} height={14} className="admin:h-3.5 admin:w-5 admin:rounded-[2px] admin:object-cover" />
+                    {entry.label}
+                  </Button>
+                ))}
+                <span className="admin:mx-1 admin:h-6 admin:w-px admin:bg-border" aria-hidden="true" />
+                <Button size="sm" variant={language === "all" ? "default" : "outline"} onClick={() => setLanguage("all")} disabled={exporting}>
+                  <Globe2 size={15} /> Svi jezici
+                </Button>
+              </div>
+
+              <div className="admin:rounded-md admin:bg-muted admin:px-4 admin:py-3">
+                <Hint mode={mode} />
+              </div>
+
+              {mode === "custom" && (
+                <div className="admin:flex admin:flex-wrap admin:gap-2">
+                  {subcategories
+                    .filter((subcategory) => subcategory.name.toLowerCase() !== "dnevni menu")
+                    .map((subcategory) => (
+                      <Button
+                        key={subcategory.id}
+                        size="sm"
+                        variant={selected.includes(subcategory.id) ? "default" : "outline"}
+                        onClick={() => toggleSubcategory(subcategory.id)}
+                      >
+                        {subcategory.name}
+                      </Button>
+                    ))}
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </div>
       </div>
-    </main>
+
+      <Container maxW="container.lg" mx="auto" px={5}>
+        <Box position="relative">
+          {mode === "custom" && <Box className="page-break-preview-overlay" />}
+          <Box
+            ref={printableRef}
+            id="printable"
+            className={mode === "custom" ? "with-page-breaks" : ""}
+            fontFamily="'Open Sans', sans-serif"
+          >
+            <VStack spacing={2} align="stretch" color="#444654">
+              {renderItems()}
+            </VStack>
+          </Box>
+        </Box>
+      </Container>
+    </Box>
   );
 }
