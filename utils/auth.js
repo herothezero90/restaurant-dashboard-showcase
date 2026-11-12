@@ -30,7 +30,7 @@ export async function login(username, password) {
   const normalizedPassword = String(password || "").trim();
 
   if (normalizedUsername !== DEMO_USERNAME || normalizedPassword !== DEMO_PASSWORD) {
-    throw new Error("Neispravno demo korisničko ime ili lozinka.");
+    throw new Error("Incorrect username or password.");
   }
 
   if (!hasWindow()) return;

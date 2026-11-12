@@ -112,18 +112,18 @@ function LoginScreen() {
             <LogIn size={20} />
           </div>
           <CardTitle>Konoba Bare</CardTitle>
-          <p className="admin:text-sm admin:text-muted-foreground">Upravljanje jelovnikom</p>
+          <p className="admin:text-sm admin:text-muted-foreground">Menu management dashboard</p>
         </CardHeader>
         <CardContent>
           <form className="admin:grid admin:gap-4" onSubmit={handleSubmit}>
-            <Field label="Korisničko ime">
+            <Field label="Username">
               <Input value={username} onChange={(event) => setUsername(event.target.value)} autoComplete="username" />
             </Field>
-            <Field label="Lozinka">
+            <Field label="Password">
               <Input type="password" value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="current-password" />
             </Field>
-            <Button type="submit">Uđi u dashboard</Button>
-            <p className="admin:text-center admin:text-xs admin:text-muted-foreground">demo / demo123</p>
+            <Button type="submit">Sign in</Button>
+            <p className="admin:text-center admin:text-xs admin:text-muted-foreground">Demo login: username <strong>demo</strong>, password <strong>demo123</strong></p>
           </form>
         </CardContent>
       </Card>
